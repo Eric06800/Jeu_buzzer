@@ -34,7 +34,7 @@ def show_menu():
     lcd.move_to(7,1)
     lcd.putstr('JEU 2 ==>')
 
-# Fin_Timer = machine.Timer(period=30000, mode=Timer.ONE_SHOT, callback=arret) # fin automatique si on ne fait rien après 60 sec.
+# Fin_Timer = machine.Timer(period=60000, mode=Timer.ONE_SHOT, callback=arret) # fin automatique si on ne fait rien après 60 sec.
 show_menu()
 
 while True:
